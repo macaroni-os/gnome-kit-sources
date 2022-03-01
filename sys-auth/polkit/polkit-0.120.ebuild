@@ -10,7 +10,7 @@ SRC_URI="https://www.freedesktop.org/software/${PN}/releases/${P}.tar.gz"
 
 LICENSE="LGPL-2"
 SLOT="0"
-KEYWORDS="*"
+KEYWORDS="next"
 IUSE="elogind examples gtk +introspection kde pam selinux +spidermonkey test"
 
 BDEPEND="

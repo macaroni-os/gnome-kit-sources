@@ -3,7 +3,7 @@
 EAPI=6
 GNOME3_LA_PUNT="yes"
 VALA_USE_DEPEND="vapigen"
-inherit autotools eutils gnome3 vala ltprune
+inherit autotools eutils gnome3 vala ltprune memsaver
 
 DESCRIPTION="Scalable Vector Graphics (SVG) rendering library"
 HOMEPAGE="https://wiki.gnome.org/Projects/LibRsvg"
@@ -35,6 +35,7 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare() {
+    memsaver_src_prepare
 	local build_dir
 
 	eautoreconf

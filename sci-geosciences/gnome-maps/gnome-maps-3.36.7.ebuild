@@ -43,7 +43,6 @@ DEPEND="${COMMON_DEPEND}
 "
 
 src_prepare() {
-	# Patch ready for meson upgrade to v0.63.
-	#sed -i -e '/\tappdata,/d' data/meson.build
+	sed -i -e '/\tappdata,/d' data/meson.build
 	gnome3_src_prepare
 }

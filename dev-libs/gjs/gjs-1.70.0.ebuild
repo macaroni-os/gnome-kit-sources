@@ -29,7 +29,7 @@ src_configure() {
 	local emesonargs=(
 		$(meson_feature cairo)
 		$(meson_feature readline)
-		-Dprofiler=false
+		-Dprofiler=disabled
 		-Dinstalled_tests=false
 		-Dskip_dbus_tests=true
 		-Dskip_gtk_tests=true

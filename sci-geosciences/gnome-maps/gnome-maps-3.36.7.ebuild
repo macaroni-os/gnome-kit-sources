@@ -26,7 +26,7 @@ COMMON_DEPEND="
 	>=sci-geosciences/geocode-glib-3.15.2[introspection]
 	>=x11-libs/gtk+-3.24.12:3[introspection]
 	app-crypt/libsecret[introspection]
-	dev-libs/libgweather[introspection]
+	dev-libs/libgweather
 	media-libs/clutter-gtk:1.0[introspection]
 	media-libs/clutter:1.0[introspection]
 	media-libs/cogl:1.0[introspection]
